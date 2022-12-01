@@ -346,8 +346,8 @@ namespace pool
             return block_from_pointer(p)->block_beginning;
         }
 
-        /// \brief Dumps the free list of the block where p lives
-        /// \param p pointer used to determinate the block
+        /// \brief Dumps the free list of the block where p is
+        /// \param p pointer used to determine the block
         /// \return a vector with a pair of values where the first parameters is a free memory block and the second parameter
         /// is the next free block where the first parameter pointed to
         /// A vector of size zero  corresponds to a fully used block
